@@ -1,0 +1,105 @@
+﻿  Source.cpp
+D:\HCMUS\Năm 3\Học kì II\Thị giác máy tính\1712842_Lab03\1712842_Lab03\Source.cpp(41,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\HCMUS\Năm 3\Học kì II\Thị giác máy tính\1712842_Lab03\1712842_Lab03\Source.cpp(55,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\HCMUS\Năm 3\Học kì II\Thị giác máy tính\1712842_Lab03\1712842_Lab03\Source.cpp(56,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\HCMUS\Năm 3\Học kì II\Thị giác máy tính\1712842_Lab03\1712842_Lab03\Source.cpp(59,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\HCMUS\Năm 3\Học kì II\Thị giác máy tính\1712842_Lab03\1712842_Lab03\Source.cpp(87,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\HCMUS\Năm 3\Học kì II\Thị giác máy tính\1712842_Lab03\1712842_Lab03\Source.cpp(126,20): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\HCMUS\Năm 3\Học kì II\Thị giác máy tính\1712842_Lab03\1712842_Lab03\Source.cpp(135,20): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\HCMUS\Năm 3\Học kì II\Thị giác máy tính\1712842_Lab03\1712842_Lab03\Source.cpp(159,96): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\HCMUS\Năm 3\Học kì II\Thị giác máy tính\1712842_Lab03\1712842_Lab03\Source.cpp(177,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(163,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(234): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(234): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(234): message : see reference to function template instantiation 'std::tuple<float>::tuple<std::_Exact_args_t,_Ty,,0>(_Tag,_This2 &&)' being compiled
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(234): message : see reference to function template instantiation 'std::tuple<float>::tuple<std::_Exact_args_t,_Ty,,0>(_Tag,_This2 &&)' being compiled
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(234): message : see reference to function template instantiation 'std::tuple<int,float>::tuple<std::_Exact_args_t,_Ty,double,0>(_Tag,_This2 &&,double &&)' being compiled
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(234): message : see reference to function template instantiation 'std::tuple<int,float>::tuple<std::_Exact_args_t,_Ty,double,0>(_Tag,_This2 &&,double &&)' being compiled
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(797): message : see reference to function template instantiation 'std::tuple<int,int,float>::tuple<std::_Exact_args_t,int,int,double,0>(_Tag,_This2 &&,int &&,double &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(797): message : see reference to function template instantiation 'std::tuple<int,int,float>::tuple<std::_Exact_args_t,int,int,double,0>(_Tag,_This2 &&,int &&,double &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(241): message : see reference to function template instantiation 'std::tuple<int,int,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned __int64,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<int,int,double>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,int,double>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(241): message : see reference to function template instantiation 'std::tuple<int,int,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned __int64,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<int,int,double>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,int,double>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(367): message : see reference to function template instantiation 'std::tuple<int,int,float>::tuple<std::_Unpack_tuple_t,std::tuple<int,int,double>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,int,double>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(367): message : see reference to function template instantiation 'std::tuple<int,int,float>::tuple<std::_Unpack_tuple_t,std::tuple<int,int,double>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,int,double>
+          ]
+D:\HCMUS\Năm 3\Học kì II\Thị giác máy tính\1712842_Lab03\1712842_Lab03\Source.cpp(113): message : see reference to function template instantiation 'std::tuple<int,int,float>::tuple<int,int,double,0>(std::tuple<int,int,double> &&) noexcept' being compiled
+D:\HCMUS\Năm 3\Học kì II\Thị giác máy tính\1712842_Lab03\1712842_Lab03\Source.cpp(113): message : see reference to function template instantiation 'std::tuple<int,int,float>::tuple<int,int,double,0>(std::tuple<int,int,double> &&) noexcept' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(632): message : see reference to class template instantiation 'std::chrono::duration<double,std::ratio<1,1>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(178): message : see reference to class template instantiation 'std::chrono::duration<__int64,std::nano>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(610): message : see reference to class template instantiation 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>' being compiled
+  1712842_Lab03.vcxproj -> D:\HCMUS\Năm 3\Học kì II\Thị giác máy tính\1712842_Lab03\x64\Debug\1712842_Lab03.exe
